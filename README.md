@@ -13,7 +13,7 @@ A Python package for printing folder directory trees.
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/folder_tree.git
+git clone https://github.com/euyis1019/folder_treeForLLM.git
 cd folder_tree
 pip install .
 ```
