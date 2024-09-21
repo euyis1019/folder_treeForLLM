@@ -41,7 +41,6 @@ print(output)
 ```
 ### Json, XML format
 ```python
-# 设置排除列表和通配符模式
 exclude = ['node_modules']
 exclude_patterns = ['*.pyc', '__pycache__']
 
@@ -84,5 +83,4 @@ for elem in output_xml:
     root.append(elem)
 tree = ET.ElementTree(root)
 tree.write('output.xml', encoding='utf-8', xml_declaration=True)
-print('XML 输出已写入 output.xml 文件')
 ```
