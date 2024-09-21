@@ -17,6 +17,7 @@ git clone https://github.com/yourusername/folder_tree.git
 cd folder_tree
 pip install .
 ```
+## How to use
 
 ```python
 # 设置排除列表和通配符模式
