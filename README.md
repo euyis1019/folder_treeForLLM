@@ -39,12 +39,13 @@ output = folder_tree.print_tree(
 )
 print(output)
 ```
+### Json, XML format
 ```python
 # 设置排除列表和通配符模式
 exclude = ['node_modules']
 exclude_patterns = ['*.pyc', '__pycache__']
 
-# 测试字符串输出
+# String
 output_str = folder_tree.print_tree(
     path='.',
     max_depth=2,
@@ -56,7 +57,7 @@ output_str = folder_tree.print_tree(
 )
 print(output_str)
 
-# 测试 JSON 输出
+# JSON
 output_json = folder_tree.print_tree(
     path='',
     max_depth=1,
@@ -68,7 +69,7 @@ output_json = folder_tree.print_tree(
 )
 print(json.dumps(output_json, indent=4, ensure_ascii=False))
 
-# 测试 XML 输出
+# XML
 output_xml = folder_tree.print_tree(
     path='',
     max_depth=1,
