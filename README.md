@@ -18,7 +18,27 @@ cd folder_tree
 pip install .
 ```
 ## How to use
+### Base
+```python
+import folder_tree
 
+# basic usage
+output = folder_tree.print_tree(path='.', max_depth=2)
+print(output)
+
+
+# parameters
+output = folder_tree.print_tree(
+    path='.',
+    max_depth=3,
+    exclude=['.git'],
+    exclude_patterns=['*.pyc', '__pycache__'],
+    show_hidden=False,
+    include_file_sizes=True,
+    output_format='string',
+)
+print(output)
+```
 ```python
 # 设置排除列表和通配符模式
 exclude = ['node_modules']
