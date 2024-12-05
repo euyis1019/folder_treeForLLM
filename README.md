@@ -1,6 +1,6 @@
 # folder_tree
 
-A Python package for printing folder directory trees.
+A Python package for printing folder directory trees. By selectively printing folder structures, it helps Large Language Models (LLMs) quickly grasp the project organization, making the process of reading and understanding the project more efficient.
 
 ## Features
 
